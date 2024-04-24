@@ -11,7 +11,7 @@ public class Pruebas {
 
         String moneda = "usd";
 
-        URI direccion = URI.create("https://v6.exchangerate-api.com/v6/64455ecc2f98daade9b85ee8/pair/usd/mxn/100");
+        URI direccion = URI.create("https://v6.exchangerate-api.com/v6/64455ecc2f98daade9b85ee8/codes");
 // para conversion de valor https://v6.exchangerate-api.com/v6/YOUR-API-KEY/pair/EUR/GBP/AMOUNT
 // link de pura consulta         https://v6.exchangerate-api.com/v6/64455ecc2f98daade9b85ee8/latest/"+moneda
         HttpClient client = HttpClient.newHttpClient();
